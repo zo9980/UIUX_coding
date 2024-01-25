@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Titlelist</title>
+
+    <link rel="stylesheet" href="css/titlelist.css" />
+    <Link rel="icon" href="img/favicon.png"></Link>
+  </head>
+  <body>
+    <!-- 헤더 -->
+    <header id="header">
+      <nav>
+        <img src="img/titleist_logo.png" class="titleist_logo" />
+        <img src="img/open.svg" class="icon_menu_h" onclick="menuOpen()"/>
+      </nav>
+    </header>
+
+<!-- 메뉴 -->
+    <section class="menu">
+       
+      </div>
+      <div class="menu_container">
+        <!-- <img src="img/titleist_logo.png" class="titleist_menu_logo" /> -->
+        <a class="menu_icon" onclick="menuItemClick()">
+          <img src="img/close.svg" >
+          <img src="img/menu_img1.jpg" class="menu_img1" >
+          <img src="img/menu_img2.jpg" class="menu_img2" >
+          <img src="img/menu_img3.jpg" class="menu_img3" >
+          <img src="img/menu_img4.jpg" class="menu_img4">
+        </a>
+
+
+        <a href="#intro" class="menu_intro" onclick="menuItemClick()"  onmouseover="hoverIntro()" onmouseout="outIntro()">   
+          <img src="img/menu_01.svg" class="menu_01">
+          <img src="img/menu_intro.svg" >
+          
+        </a>
+
+
+        <a href="#ball" class="menu_ball" onclick="menuItemClick()" onmouseover="hoverBall()" onmouseout="outBall()">
+          <img src="img/menu_01.svg" class="menu_02">
+          <img src="img/menu_ball.svg" >
+        </a>
+
+        <a href="#putter" class="menu_putter" onclick="menuItemClick()" onmouseover="hoverPutter()" onmouseout="outPutter()">         
+          <img src="img/menu_01.svg" class="menu_03">
+          <img src="img/menu_putter.svg" >
+        </a>
+
+        <a href="#wedge" class="menu_wedge" onclick="menuItemClick()" onmouseover="hoverWedge()" onmouseout="outWedge()">
+      
+          <img src="img/menu_01.svg" class="menu_04">
+          <img src="img/menu_wedge.svg" >
+        </a>
+      </div>
+    </section>
+    <main>
+     
+
+
+      <!-- 인트로 -->
+      <section class="intro" id="intro">
+        <div class="intro_container">
+          <video id="fullscreen-video" autoplay muted loop>
+            <source src="video/intro.mp4" type="video/mp4" />
+          </video>
+          <div class="shape"></div>
+          <img src="img/intro logo.svg" class="intro_logo">
+        </div>
+      </section>
+
+
+      
+
+
+<!-- ------------------------------------- -->
+     
+      
+     <!-- section01 오버뷰 --> 
+     <div class="wrapper">  
+      <img src="img/main_golfball.png" class="golf_ball" />
+      <section class="section01" >
+        <div class="section01_container">        
+          <img
+            src="img/section01_outperform.png"
+            class="section01_outperform"
+          />
+          <img src="img/section01_designed_to.png" class="design_to" />
+          <img src="img/section01_main_text.png" class="main_text" />
+          <img src="img/section01_line.png" class="main_line" />
+          <!-- <img src="img/section01_scroll_down.png" class="scroll_down" /> -->
+          
+        </div>
+      </section>
+
+
+        <section class="section02">
+          <div class="section02_container">
+            <img src="img/section02_bg.png" class="section02_bg">
+            <img src="img/section02_the_greatest.png" class="section02_the_greatest">
+            <img src="img/section02_combination_of.png" class="combination_of">
+            <img src="img/section02_speedspin_and_feel.png" class="speed_spin">
+            <img src="img/section02_text.png" class="section02_text">
+          </div>
+        </section>
+
+       
+     
+      
+
+      
+       <!-- section03 -->
+      <section class="section03" id="ball">
+        <div class="section03_container">
+          <img src="img/section03_line.png" class="section03_line">
+          <img src="img/section03_titlelist.svg" class="section03_titlelist">
+          <img src="img/section03_text.png" class="section03_text">
+          <img src="img/section03_pr.png" class="section03_pr title">
+          <img src="img/section03_v1.png" class="section03_v1 title">
+          <img src="img/section03_o.png" class="section03_o">
+          <img src="img/section03_shadow1.png" class="section03_shadow1 shadow">
+          <img src="img/section03_shadow2.png" class="section03_shadow2 shadow">
+          <img src="img/section03_shadow3.png" class="section03_shadow3 shadow">
+          <img src="img/main_golfball.png" class="section03_golf_ball" />
+          <!-- <img src="img/section03_ball.png" class="section03_ball"> -->
+        </div>
+      </section>
+    </div>
+   
+    
+
+      <!-- section04 -->   
+      <section class="section04" id="change01">
+        <div class="section04_container">
+          <video class="section04_video" src="video/section04_video.mp4" autoplay muted loop></video>    
+          <img src="img/section04_v1.png" class="section04_v1">
+          <img src="img/section04_pro.png" class="section04_pro">
+          <img src="img/section04_new.png" class="section04_new">
+          <img src="img/section04_engine.png" class="section04_engine">  
+          <img src="img/section04_text.png" class="section04_text">
+          <img src="img/section04_index.svg" class="section04_index">
+          <img src="img/section04_line.svg" class="section04_line">
+        </div>
+      </section>
+
+
+<!----------- 가로 스크롤---------------------- -->
+      <!-- section05 -->
+     <div class="scroll_container01">
+      <section class="panel01 section05" id="change02">
+        <div class="section05_container">
+          <img src="img/section05_img1.svg" class="section05_img1">
+          <img src="img/section05_img2.svg" class="section05_img2">
+          <img src="img/section05_lowlong.svg" class="section05_text1 section05_lowlong">
+          <img src="img/section05_gamespin.svg" class="section05_text1 section05_gamespin">
+          <img src="img/section05_and.svg" class="section05_text2 section05_and">
+          <img src="img/section05_improved.svg" class="section05_text2 section05_improved">
+          <img src="img/section05_speed.svg" class="section05_text2 section05_speed">
+          <img src="img/section05_text.svg" class="section05_text">
+        </div>
+      </section>
+
+      <!-- section06 -->
+      <section class="panel01 section06" >
+        <div class="section06_container">
+          <img src="img/section06_img.svg" class="section06_img">
+          <img src="img/section06_and.svg" class="section06_text1 section06_and">
+          <img src="img/section06_sharp.svg" class="section06_text1 section06_sharp">
+          <img src="img/section06_consistent.svg" class="section06_text2 section06_consistent">
+          <img src="img/section06_ballflight.svg" class="section06_text2 section06_ballflight">
+          <img src="img/section06_text.svg" class="section06_text">
+         
+        </div>
+      </section>
+
+      <!-- section07 -->
+      <section class="panel01 section07">
+        <div class="section07_container">
+          <img src="img/section07_img1.svg" class="section07_img1">
+          <img src="img/section07_img2.svg" class="section07_img2">
+          <img src="img/section07_tm.svg" class="section07_text1 section07_tm">
+          <img src="img/section07_overwheling.svg" class="section07_text1 section07_overwhelming">
+          <img src="img/section07_dropandstop.svg" class="section07_text1 section07_dropandstop">
+          <img src="img/section07_controls.svg" class="section07_text2 section07_controls">
+          <img src="img/section07_text.svg" class="section07_text">
+        </div>
+      </section>
+    </div>
+<!-- ----------------------------------- -->
+<!-- section07_1 -->
+<section class="section07_1">
+  <div class="section07_1_container">
+    <img src="img/section07_1_gradiant.svg" class="section07_1_bg">
+  </div>
+</section>
+</div>
+
+
+       <!-- section08 -->
+       <section class="section08" id="change03">
+        <div class="section08_container">
+          <img src="img/section08_bg.svg" class="section08_bg">
+          <img src="img/section08_text.svg" class="section08_text">
+          <img src="img/section08_img1.jpg" class="section08_img1">
+          <img src="img/section08_img2.jpg" class="section08_img2">
+          <img src="img/section08_img3.jpg" class="section08_img3">
+          <img src="img/section08_img4.jpg" class="section08_img4">
+          <img src="img/section08_better.svg" class="section08_better">
+         
+          
+
+        </div>
+      </section>
+
+          <!-- section09 -->
+       <section class="section09" id="putter">
+        <div class="section09_container">
+          <img src="img/section09_img1.svg" class="section09_img1">
+          <img src="img/section09_index.svg" class="section09_index">
+          <img src="img/section9_index_line.svg" class="section09_line">
+          <img src="img/section09_putter.svg" class="section09_putter">
+          <img src="img/section09_scotty.svg" class="section09_scotty">
+          <img src="img/section09_cameron.svg" class="section09_cameron">
+        </div>
+      </section>
+
+      <!-- section10 -->
+      <section class="section10">
+        <div class="section10_container">
+          <img src="img/section10_s.svg" class="s">
+          <img src="img/section10_u.svg" class="u">
+          <img src="img/section10_p.svg" class="p">
+          <img src="img/section10_e.svg" class="e">
+          <img src="img/section10_r.svg" class="r">
+          <img src="img/section10_img1.svg" class="section10_img1">
+          <img src="img/section10_img2.svg" class="section10_img2">
+          <img src="img/section10_img3.svg" class="section10_img3">
+          <img src="img/section10_img4.svg" class="section10_img4">
+          <img src="img/section10_Line1.png" class="section10_line1">
+          <img src="img/section10_line2.png" class="section10_line2">
+          <img src="img/section10_line3.png" class="section10_line3">
+          <img src="img/section10_line4.png" class="section10_line4">
+          <img src="img/section10_line5.png" class="section10_line5">
+          <img src="img/section10_line6.png" class="section10_line6">
+          <img src="img/section10_line7.png" class="section10_line7">        
+        </div>
+      </section>
+
+      <!-- section11 -->
+      <section class="section11">
+        <div class="section11_container">
+          <img src="img/section11_putter.svg" class="section11_putter">
+          <img src="img/section11_red.svg" class="section11_red">
+          <img src="img/section11_select.svg" class="section11_select">
+          <img src="img/section11_super.svg" class="section11_super">
+          <img src="img/section11_text.svg" class="section11_text">
+          <video id="fullscreen-video10" autoplay muted loop>
+            <source src="video/section11_video.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </section>
+<!------------- 가로스크롤------------------------ -->
+  <div class="scroll_container02">
+      <!-- section12 -->
+      <section class="panel02 section12">
+        <div class="section12_container">
+          <img src="img/section12_face.svg" class="section12_text1 section12_face">
+          <img src="img/section12_dualmild.svg" class="section12_text1 section12_dualmild">
+          <img src="img/section12_technology.svg" class="section12_text1 section12_technology">
+          <img src="img/section12_text.svg" class="section12_text">
+          <video id="fullscreen-video2" autoplay muted loop>
+            <source src="video/section12_video.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </section>
+
+      <!-- section13 -->
+      <section class="panel02 section13">
+        <div class="section13_container">
+          <div class="circle-container">
+            <video id="fullscreen-video3" autoplay muted loop>
+              <source src="video/section13_video.mp4" type="video/mp4">
+            </video> 
+          </div>
+          <img src="img/section13_deepmilling.svg" class="section13_text1 section13_deepmilling">
+          <img src="img/section13_excellent.svg" class="section13_text1 section13_excellent">
+          <img src="img/section13_sound.svg" class="section13_text1 section13_sound">
+          <img src="img/section13_text.svg" class="section13_text">
+          <img src="img/section13_batting.svg" class="section13_batting">            
+        </div>
+      </section>
+
+      <!-- section14 -->
+      <section class="panel02 section14">
+        <div class="section14_container">
+          <img src="img/section14_reat.svg" class="section14_text1 section14_great">
+          <img src="img/section14_flat.svg" class="section14_text2 section14_flat">
+          <img src="img/section14_consistency.svg" class="section14_text1 section14_consistency">
+          <video id="fullscreen-video4" autoplay muted loop>
+            <source src="video/section14_video.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </section>
+    </div>
+
+      <!-- section15 -->
+      <section class="section15">
+        <div class="section15_container">
+          <img src="img/section15_img.jpg" class="section15_img">
+          <img src="img/section15_comma.svg" class="section15_comma">
+          <img src="img/section15_text1.svg" class="section15_text1">
+          <img src="img/section15_text2.svg" class="section15_text2">
+          <img src="img/section15_text3.svg" class="section15_text3">
+          <img src="img/section15_text4.svg" class="section15_text4">         
+        </div>
+      </section>
+
+      <!-- section16 -->
+      <section class="section16" id="wedge">
+        <div class="section16_container">
+          <img src="img/section16_vokey.svg" class="section16_vokey">
+          <img src="img/section16_sm9.png" class="section16_img">
+          <img src="img/section16_choose.svg" class="section16_choose">
+          <img src="img/section16_sm9.svg" class="section16_sm9">
+          <img src="img/section16_wedge.svg" class="section16_wedge">
+          <img src="img/section16_line.svg" class="section16_line">
+          <img src="img/section16_index.svg" class="section16_index">   
+          <img src="img/section16_line3.svg" class="section16_line3">      
+        </div>
+      </section>
+
+      <!-- section17 -->
+      <section class="section17">
+        <div class="section17_container">
+          <img src="img/section17_with.svg" class="section17_with">
+          <img src="img/section17_sm9.svg" class="section17_sm9">
+          <img src="img/section17_wedge.svg" class="section17_wedge">
+          <img src="img/section17_hole.svg" class="section17_hole">
+          <img src="img/section17_closer.svg" class="section17_closer">
+          <img src="img/section17_box.svg" class="section17_box">  
+          <img src="img/section17_often.svg" class="section17_often">
+          <img src="img/section17_text.svg" class="section17_text">              
+        </div>
+      </section>
+
+      <!-- section18 -->
+      <section class="section18">
+        <div class="section18_container">
+          <img src="img/section18_text1.svg" class="section18_text1">
+          <img src="img/section18_text1.svg" class="section18_text3">
+          <img src="img/section18_text4.svg" class="section18_text4">
+          <img src="img/section18_img.jpg" class="section18_img">        
+          <img src="img/section18_text2.svg" class="section18_text2">
+        </div>
+      </section>
+
+      <!-- section19 -->
+      <section class="section19">
+        <div class="section19_container">
+          <img src="img/section19_img1.jpg" class="section19_img1">
+          <img src="img/section19_img2.jpg" class="section19_img2">
+          <img src="img/section19_shot.svg" class="section19_shot">
+          <img src="img/section19_text1.svg" class="section19_text1">        
+          <img src="img/section19_text2.svg" class="section19_text2">
+        </div>
+      </section>
+
+       <!-- section20 -->
+       <section class="section20">
+        <div class="section20_container">
+          <video id="fullscreen-video5" autoplay muted loop>
+            <source src="video/section20_video2.mp4" type="video/mp4" />
+          </video> 
+          <img src="img/section20_choose.svg" class="section20_choose">
+          <img src="img/section20_closer.svg" class="section20_closer">
+          <img src="img/section20_text.svg" class="section20_text">     
+        </div>
+      </section>
+
+
+<!----------------- 가로 스크롤-------------------- -->
+<div class="scroll_container03">
+        <!-- section21 -->
+        <section class="panel03 section21">
+          <div class="section21_container">
+            <video id="fullscreen-video6" autoplay muted loop>
+              <source src="video/section21_video1.mp4" type="video/mp4" />
+            </video> 
+            <img src="img/section21_titlelist.svg" class="section21_titlelist">
+            <img src="img/section21_put.svg" class="section21_put">
+            <img src="img/section21_always.svg" class="section21_always">  
+            <video id="fullscreen-video7" autoplay muted loop>
+              <source src="video/section21_video2.mp4" type="video/mp4" /> 
+            </video>  
+          </div>
+        </section>
+
+        <!-- section22 -->
+        <section class="panel03 section22">
+          <div class="section22_container">
+            <img src="img/section22_alotof.svg" class="section22_alotof">
+            <img src="img/section22_group.svg" class="section22_group">
+            <img src="img/section22_intothe.svg" class="section22_intothe">    
+          </div>
+        </section>
+
+        <!-- section23 -->
+        <section class="panel03 section23">
+          <div class="section23_container">
+            <video id="fullscreen-video8" autoplay muted loop>
+              <source src="video/section23_video.mp4" type="video/mp4" /> 
+            </video>
+            <img src="img/section23_shape.svg" class="section23_shape">
+            <img src="img/section23_text.svg" class="section23_text">
+           
+          </div>
+        </section>
+      </div>
+
+      <!-- section24 -->
+      <section class="section24"> 
+        <div class="section24_container"> 
+          <video id="fullscreen-video9" autoplay muted loop>
+            <source src="video/section24_video.mp4" type="video/mp4" /> 
+          </video>
+         <img src="img/section24_mask.svg" class="section24_mask">
+         <img src="img/section24_text.svg" class="section24_text">
+         
+         <img src="img/section24_footer.svg" class="section24_footer">
+         
+        
+         <a href="https://www.instagram.com/titleist_korea/?hl=ko" target="_blank"><img src="img/instagram.svg" class="sns instagram" ></a>
+         <a href="https://www.facebook.com/titleistkorea/?locale=ko_KR" target="_blank"><img src="img/facebook.svg" class="sns facebook"></a>
+         <a href="https://www.youtube.com/@TitleistKOR" target="_blank"><img src="img/youtube.svg" class="sns youtube"></a>
+
+         
+        </div>
+      </section>
+
+
+
+    </main>
+
+    <!-- <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1/bundled/lenis.min.js"></script> -->
+
+    <script src="js/scrollsmooth.js"></script>
+
+    <!-- jquery cdn -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
+    
+    <script src="js/main.js"></script>
+  </body>
+</html>
